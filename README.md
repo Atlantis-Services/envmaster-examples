@@ -13,7 +13,11 @@ Contains `.envmaster` templates for our microservices.
     cd envmaster-examples
     ```
 
-2. **Go into a service folder** (e.g., `url-validator`) and follow the instructions in its README:
+2. **Install Envmaster** (if not already installed)
+
+    - Get it here: [github.com/Atlantis-Services/envmaster-cli](https://github.com/Atlantis-Services/envmaster-cli)
+
+3. **Go into a service folder** (e.g., `url-validator`) and follow the instructions in its README:
 
 ---
 
