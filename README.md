@@ -32,7 +32,6 @@ Contains `.envmaster` templates for our microservices.
     ```
 
 Or with Envmaster:
-
     ```bash
     envmaster run -- <your-command>
     ```
