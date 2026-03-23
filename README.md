@@ -2,39 +2,26 @@
 
 Contains `.envmaster` templates for our microservices.
 
-> ⚠️ **Never commit `.envmaster.local`**
-
 ---
 
 ## Quick Start
 
-1. **Clone repo**
+1. **Clone the repo**
 
     ```bash
     git clone https://github.com/Atlantis-Services/envmaster-examples.git
     cd envmaster-examples
     ```
 
-2. **Init Envmaster**
+2. **Go into a service folder** (e.g., `url-validator`) and follow the instructions in its README:
 
-    ```bash
-    envmaster init
-    ```
+---
 
-3. **Select project & environment**
+## Team Notes
 
-4. **Run project**
-
-    ```bash
-    npm install
-    npm run dev    # or
-    npm run start
-    ```
-
-Or with Envmaster:
-    ```
-    envmaster run -- <your-command>
-    ```
+- ⚠️ If you’re working in a team, you **can commit `.envmaster.local`**.  
+  Otherwise, it’s recommended to keep it local.
+- Your environment variables are safe—only authenticated users can access them.
 
 ---
 
